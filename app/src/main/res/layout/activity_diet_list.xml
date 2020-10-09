@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/dietlist"
+    tools:context=".DietList">
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       
+       >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:text=""
+        android:textSize="25sp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/bmrcounterId"
+        android:textAppearance="?android:textAppearanceLarge"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:text=""
+        android:textSize="25sp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/statusId"
+        android:textAppearance="?android:textAppearanceLarge"
+
+        />
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Food Name"
+        android:id="@+id/foodNameId"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="10dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Quantity"
+        android:id="@+id/foodQuantityId"
+        android:textColorHint="#FFFFFF"
+        android:layout_marginBottom="10dp"
+        android:textColor="#FFFFFF"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SAVE BREAKFAST DATA"
+        android:id="@+id/saveDataId"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textStyle="bold"
+        android:background="#FFFFFF"
+        android:layout_marginBottom="10dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BREAKFAST"
+        android:id="@+id/breakfastSaveId"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textStyle="bold"
+        android:background="#FFFFFF"
+        android:layout_marginBottom="10dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SAVE LUNCH DATA"
+        android:id="@+id/saveLunchId"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textStyle="bold"
+        android:background="#FFFFFF"
+        android:layout_marginBottom="10dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LUNCH"
+        android:id="@+id/lunchSaveId"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textStyle="bold"
+        android:background="#FFFFFF"
+        android:layout_marginBottom="10dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SAVE SNACKS DATA"
+        android:id="@+id/saveSnacksId"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textStyle="bold"
+        android:background="#FFFFFF"
+        android:layout_marginBottom="10dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EVENING SNACKS"
+        android:id="@+id/eveningSaveId"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textStyle="bold"
+        android:background="#FFFFFF"
+        android:layout_marginBottom="10dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SAVE DINNER DATA"
+        android:id="@+id/saveDinnerDataId"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textStyle="bold"
+        android:background="#FFFFFF"
+        android:layout_marginBottom="10dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DINNER"
+        android:id="@+id/dinnerSaveId"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textStyle="bold"
+        android:background="#FFFFFF"
+        android:layout_marginBottom="10dp"
+        />
+
+
+
+
+    </LinearLayout>
+   </ScrollView>
+
+
+
+
+
+
+</LinearLayout>

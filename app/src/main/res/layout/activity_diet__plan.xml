@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/dietlist"
+    tools:context=".DietList">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/bmrcounterId"
+        android:textAppearance="?android:textAppearanceLarge"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:layout_marginBottom="40dp"
+        android:id="@+id/statusId"
+        android:textAppearance="?android:textAppearanceLarge"
+        />
+
+
+
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BREAKFAST"
+        android:id="@+id/breakfastSaveId"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textStyle="bold"
+        android:background="#FFFFFF"
+        android:layout_marginBottom="10dp"
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LUNCH"
+        android:id="@+id/lunchSaveId"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textStyle="bold"
+        android:background="#FFFFFF"
+        android:layout_marginBottom="10dp"
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EVENING SNACKS"
+        android:id="@+id/eveningSaveId"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textStyle="bold"
+        android:background="#FFFFFF"
+        android:layout_marginBottom="10dp"
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DINNER"
+        android:id="@+id/dinnerSaveId"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textStyle="bold"
+        android:background="#FFFFFF"
+        android:layout_marginBottom="10dp"
+        />
+
+
+
+
+</LinearLayout>

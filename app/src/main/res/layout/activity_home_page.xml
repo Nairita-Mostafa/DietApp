@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homepage"
+    android:backgroundTintMode="src_over"
+
+
+
+    android:orientation="vertical"
+
+
+    tools:context=".HomePage">
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:fontFamily="serif-monospace"
+        android:layout_marginTop="50dp"
+       android:layout_gravity="center_horizontal"
+        android:textSize="60sp"
+        android:textColor="#347235"
+        android:textStyle="bold"
+        android:background="#ddffffff"
+        android:layout_marginBottom="60dp"
+        android:id="@+id/homeTextId"
+
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Diet Plan"
+        android:textStyle="bold"
+        android:textSize="39dp"
+        android:background="#347235"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginBottom="19dp"
+        android:id="@+id/dietListId"
+        />
+    
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Custom request"
+        android:textStyle="bold"
+        android:textSize="39dp"
+        android:background="#347235"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginBottom="19dp"
+        android:id="@+id/messagesId"
+        />
+
+
+
+</LinearLayout>
